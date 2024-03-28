@@ -1,6 +1,6 @@
 # Enforced Automated k8s cluster security using kyverno policy generator and argocd
 
-In this project we learn how to enforce policies, governence and compliance on your kubernetes cluster. Whether our kubernetes cluster is on AWS, Azure, GCP or on-premises, this project will work without any additional changes.
+In this project we enforce policies, governence and compliance on our kubernetes cluster. Whether our kubernetes cluster is on AWS, Azure, GCP or on-premises, this project work.
 
 To explain the project with examples, using this configuration we can 
 
@@ -11,7 +11,7 @@ To explain the project with examples, using this configuration we can
 
 ## High Level Design
 
-On a very high level, A DevOps Engineer will write the required Kyverno Policy custom resource and commits it to a Git repository. Argo CD which is pre configured with `auto-sync` to watch for resources in the git repo, deploys the Kyverno Policies on to the Kubernetes cluster.
+On a very high level, we write the required Kyverno Policy custom resource and commits it to a Git repository. Argo CD which is pre configured with `auto-sync` to watch for resources in the git repo, deploys the Kyverno Policies on to the Kubernetes cluster.
 
 ## Installation
 
